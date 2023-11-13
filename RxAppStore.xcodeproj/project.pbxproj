@@ -32,7 +32,7 @@
 		5A36F1482AFE413800039ADA /* BaseErrorDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1472AFE413800039ADA /* BaseErrorDTO.swift */; };
 		5A36F14C2AFE42E300039ADA /* SearchRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F14B2AFE42E300039ADA /* SearchRepositoryImpl.swift */; };
 		5A36F1532AFE48F100039ADA /* SearchDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1522AFE48F100039ADA /* SearchDTO.swift */; };
-		5A36F1622B00BBA700039ADA /* iTunesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1612B00BBA700039ADA /* iTunesNetworking.swift */; };
+		5A36F1622B00BBA700039ADA /* ITunesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1612B00BBA700039ADA /* ITunesNetworking.swift */; };
 		5A36F1A02B02209200039ADA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F19F2B02209100039ADA /* HTTPMethod.swift */; };
 		5A36F1A22B0220A700039ADA /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1A12B0220A700039ADA /* HTTPTask.swift */; };
 		5A36F1A42B0220C000039ADA /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1A32B0220C000039ADA /* EndPointType.swift */; };
@@ -81,7 +81,7 @@
 		5A36F1472AFE413800039ADA /* BaseErrorDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorDTO.swift; sourceTree = "<group>"; };
 		5A36F14B2AFE42E300039ADA /* SearchRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryImpl.swift; sourceTree = "<group>"; };
 		5A36F1522AFE48F100039ADA /* SearchDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTO.swift; sourceTree = "<group>"; };
-		5A36F1612B00BBA700039ADA /* iTunesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesNetworking.swift; sourceTree = "<group>"; };
+		5A36F1612B00BBA700039ADA /* ITunesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesNetworking.swift; sourceTree = "<group>"; };
 		5A36F19F2B02209100039ADA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		5A36F1A12B0220A700039ADA /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
 		5A36F1A32B0220C000039ADA /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
@@ -156,8 +156,6 @@
 				5A36F1432AFE3B6300039ADA /* Data */,
 				5A36F1A72B0229FF00039ADA /* Domain */,
 				5A36F1322AFE1E3C00039ADA /* Presentation */,
-				5A0407DA2AFD476B00A4BA84 /* Assets.xcassets */,
-				5A0407DC2AFD476B00A4BA84 /* LaunchScreen.storyboard */,
 				5A0407DF2AFD476B00A4BA84 /* Info.plist */,
 			);
 			path = RxAppStore;
@@ -210,6 +208,7 @@
 		5A36F1372AFE226E00039ADA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5A36F1B52B0255E900039ADA /* Resource */,
 				5A36F1402AFE3AA200039ADA /* Protocol */,
 				5A36F1382AFE227A00039ADA /* Base */,
 			);
@@ -287,7 +286,7 @@
 		5A36F14E2AFE43B100039ADA /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				5A36F1612B00BBA700039ADA /* iTunesNetworking.swift */,
+				5A36F1612B00BBA700039ADA /* ITunesNetworking.swift */,
 				5A36F19F2B02209100039ADA /* HTTPMethod.swift */,
 				5A36F1A12B0220A700039ADA /* HTTPTask.swift */,
 				5A36F1A32B0220C000039ADA /* EndPointType.swift */,
@@ -337,6 +336,15 @@
 				5A36F1B32B0254C300039ADA /* AppItem.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		5A36F1B52B0255E900039ADA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5A0407DA2AFD476B00A4BA84 /* Assets.xcassets */,
+				5A0407DC2AFD476B00A4BA84 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,7 +507,7 @@
 				5A36F13A2AFE228700039ADA /* BaseViewController.swift in Sources */,
 				5A36F1482AFE413800039ADA /* BaseErrorDTO.swift in Sources */,
 				5A36F1352AFE1E5E00039ADA /* SearchViewController.swift in Sources */,
-				5A36F1622B00BBA700039ADA /* iTunesNetworking.swift in Sources */,
+				5A36F1622B00BBA700039ADA /* ITunesNetworking.swift in Sources */,
 				5A36F1B22B0254BC00039ADA /* Search.swift in Sources */,
 				5A0407D42AFD476700A4BA84 /* SceneDelegate.swift in Sources */,
 				5A36F13C2AFE2C6A00039ADA /* SearchTableViewCell.swift in Sources */,
