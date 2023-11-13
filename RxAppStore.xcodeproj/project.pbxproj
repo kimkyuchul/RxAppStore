@@ -39,6 +39,7 @@
 		5A36F1A62B0221AB00039ADA /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1A52B0221AB00039ADA /* SearchAPI.swift */; };
 		5A36F1AA2B022A1B00039ADA /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1A92B022A1B00039ADA /* SearchRepository.swift */; };
 		5A36F1AD2B022A6A00039ADA /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1AC2B022A6A00039ADA /* SearchUseCase.swift */; };
+		5A36F1AF2B02541900039ADA /* ITunesNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1AE2B02541900039ADA /* ITunesNetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		5A36F1A52B0221AB00039ADA /* SearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPI.swift; sourceTree = "<group>"; };
 		5A36F1A92B022A1B00039ADA /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		5A36F1AC2B022A6A00039ADA /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		5A36F1AE2B02541900039ADA /* ITunesNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesNetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +287,7 @@
 				5A36F19F2B02209100039ADA /* HTTPMethod.swift */,
 				5A36F1A12B0220A700039ADA /* HTTPTask.swift */,
 				5A36F1A32B0220C000039ADA /* EndPointType.swift */,
+				5A36F1AE2B02541900039ADA /* ITunesNetworkError.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A36F1A42B0220C000039ADA /* EndPointType.swift in Sources */,
+				5A36F1AF2B02541900039ADA /* ITunesNetworkError.swift in Sources */,
 				5A36F1A02B02209200039ADA /* HTTPMethod.swift in Sources */,
 				5A36F1A62B0221AB00039ADA /* SearchAPI.swift in Sources */,
 				5A36F14C2AFE42E300039ADA /* SearchRepositoryImpl.swift in Sources */,
