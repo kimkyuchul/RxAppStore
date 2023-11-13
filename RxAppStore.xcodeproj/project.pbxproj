@@ -40,6 +40,8 @@
 		5A36F1AA2B022A1B00039ADA /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1A92B022A1B00039ADA /* SearchRepository.swift */; };
 		5A36F1AD2B022A6A00039ADA /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1AC2B022A6A00039ADA /* SearchUseCase.swift */; };
 		5A36F1AF2B02541900039ADA /* ITunesNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1AE2B02541900039ADA /* ITunesNetworkError.swift */; };
+		5A36F1B22B0254BC00039ADA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1B12B0254BC00039ADA /* Search.swift */; };
+		5A36F1B42B0254C300039ADA /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36F1B32B0254C300039ADA /* AppItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		5A36F1A92B022A1B00039ADA /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		5A36F1AC2B022A6A00039ADA /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
 		5A36F1AE2B02541900039ADA /* ITunesNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesNetworkError.swift; sourceTree = "<group>"; };
+		5A36F1B12B0254BC00039ADA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5A36F1B32B0254C300039ADA /* AppItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +307,7 @@
 		5A36F1A72B0229FF00039ADA /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				5A36F1B02B0254AF00039ADA /* Entity */,
 				5A36F1AB2B022A5700039ADA /* UseCase */,
 				5A36F1A82B022A0B00039ADA /* RepositoryInterface */,
 			);
@@ -323,6 +328,15 @@
 				5A36F1AC2B022A6A00039ADA /* SearchUseCase.swift */,
 			);
 			path = UseCase;
+			sourceTree = "<group>";
+		};
+		5A36F1B02B0254AF00039ADA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5A36F1B12B0254BC00039ADA /* Search.swift */,
+				5A36F1B32B0254C300039ADA /* AppItem.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A36F1A42B0220C000039ADA /* EndPointType.swift in Sources */,
+				5A36F1B42B0254C300039ADA /* AppItem.swift in Sources */,
 				5A36F1AF2B02541900039ADA /* ITunesNetworkError.swift in Sources */,
 				5A36F1A02B02209200039ADA /* HTTPMethod.swift in Sources */,
 				5A36F1A62B0221AB00039ADA /* SearchAPI.swift in Sources */,
@@ -485,6 +500,7 @@
 				5A36F1482AFE413800039ADA /* BaseErrorDTO.swift in Sources */,
 				5A36F1352AFE1E5E00039ADA /* SearchViewController.swift in Sources */,
 				5A36F1622B00BBA700039ADA /* iTunesNetworking.swift in Sources */,
+				5A36F1B22B0254BC00039ADA /* Search.swift in Sources */,
 				5A0407D42AFD476700A4BA84 /* SceneDelegate.swift in Sources */,
 				5A36F13C2AFE2C6A00039ADA /* SearchTableViewCell.swift in Sources */,
 				5A36F1AA2B022A1B00039ADA /* SearchRepository.swift in Sources */,
